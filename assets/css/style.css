@@ -193,8 +193,9 @@ body {
 .chat-list-container {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   flex-direction: column;
+  padding: 0;
 }
 
 
@@ -250,12 +251,16 @@ body {
 /* NEW CHAT DESIGN */
 .chat-list {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 10px;
     border: 1px solid #33333320;
+}
+.chat-list svg{
+    width: 60px;
+    height: 60px;
 }
 
 .chat-list .chat-item{
@@ -268,6 +273,9 @@ body {
 
 .chat-list .chat-item .topSection .date {
     font-size: 13px;
+}
+.chat-list .chat-item .topSection h4{
+    font-size: 15px;
 }
 
 .chat-list .chat-item .topSection, .bottomSection{
@@ -287,6 +295,9 @@ body {
     align-items: center;
     border-radius: 100%;
 
+}
+.chat-list .chat-item .bottomSection .message{
+    font-size: 12px;
 }
 .chat-history .chat-list-container{
     height: 100%;
