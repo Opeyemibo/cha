@@ -192,8 +192,8 @@ body {
 
 .chat-list-container {
   display: flex;
-  gap: 10px;
-  margin-bottom: 5px;
+  gap: 5px;
+  margin-bottom: 3px;
   flex-direction: column;
   padding: 0;
 }
@@ -436,6 +436,10 @@ img{
     .sidebar.mobile-open {
         left: 0;
     }
+    .chat-history .chat-list-container{
+        margin-bottom: 3px;
+        gap: 2px;
+    }
     
     .chat-history {
         width: 100%;
@@ -474,7 +478,7 @@ img{
     
     .chat-list {
         padding: 10px;
-        margin-bottom: 6px;
+        margin-bottom: 2px;
     }
     
     .chat-list p {
@@ -525,6 +529,10 @@ img{
     
     .sidebar a {
         font-size: 14px;
+    }
+        .chat-history .chat-list-container{
+        margin-bottom: 3px;
+        gap: 2px;
     }
     
     .chat-history {
