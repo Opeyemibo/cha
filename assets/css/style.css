@@ -632,6 +632,7 @@ img {
 @media (max-width: 900px) {
   .container {
   padding: 5px;
+  padding-top: 60px;
 }
 
 .sidebar {
