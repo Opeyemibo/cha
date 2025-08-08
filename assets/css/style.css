@@ -90,6 +90,10 @@ body {
   opacity: 0;
   display: none;
 }
+#sidebar-active:checked ~ #overlay {
+  opacity: 1;
+  visibility: visible;
+}
 
 .container {
   display: flex;
@@ -556,6 +560,7 @@ img {
 .links-container .sidebar {
   width: 100%;
   left: 0;
+  z-index: 100;
   padding: 70px 15px 15px 15px;
   display: flex;
 }
